@@ -1,1 +1,1 @@
-# ion-go-driver: The CLI driver of ion-go
+# ion-go-driver: The driver interface for ion-go
