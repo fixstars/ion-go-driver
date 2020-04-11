@@ -10,5 +10,7 @@ github.com/urfave/cli/v2 v2.2.0 h1:JTTnM6wKzdA0Jqodd966MVj4vWbbquZykeX1sKbe2C4=
 github.com/urfave/cli/v2 v2.2.0/go.mod h1:SE9GqnLQmjVa0iPEY0f1w3ygNIYcIJ0OKPMoW2caLfQ=
 gitlab.fixstars.com/ion/ion-go v0.0.1 h1:bVa9hrr5muoW1ewN5jy+Xr0tIhI0Z50DC9oe0QTaZiQ=
 gitlab.fixstars.com/ion/ion-go v0.0.1/go.mod h1:d2nBoUZrzfUgt0UikFsny2+di9TkbO/4pizcqBBto8I=
+gitlab.fixstars.com/ion/ion-go v0.0.2-0.20200410235127-efa9113998cc h1:b5mlfE/EyJhSCHiMgAwjISJQ7G5fO7NLloJCIx9fjGQ=
+gitlab.fixstars.com/ion/ion-go v0.0.2-0.20200410235127-efa9113998cc/go.mod h1:d2nBoUZrzfUgt0UikFsny2+di9TkbO/4pizcqBBto8I=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=

@@ -29,6 +29,7 @@ func main() {
 					modules := c.StringSlice("with-bb-module")
 					target := c.String("target")
 					funcName := c.String("func-name")
+					outputDirectory := c.String("output-directory")
 
 					b, err := ion.NewBuilder()
 					if err != nil {
@@ -55,7 +56,7 @@ func main() {
 						}
 					}
 
-					if err = b.Compile(funcName); err != nil {
+					if err = b.Compile(funcName, &ion.CompileOption{OutputDirectory: outputDirectory}); err != nil {
 						return err
 					}
 					return nil
@@ -75,6 +76,12 @@ func main() {
 						Name:     "func-name",
 						Usage:    "Specify func name to be built.",
 						Required: true,
+					},
+					&cli.StringFlag{
+						Name:        "output-directory",
+						Usage:       "Specify output directory.",
+						DefaultText: ".",
+						Required:    true,
 					},
 				},
 			}, {
