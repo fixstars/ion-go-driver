@@ -27,16 +27,11 @@ func main() {
 				Action: func(c *cli.Context) error {
 					graph := c.Path("graph")
 					modules := c.StringSlice("with-bb-module")
-					target := c.String("target")
 					funcName := c.String("func-name")
 					outputDirectory := c.String("output-directory")
 
 					b, err := ion.NewBuilder()
 					if err != nil {
-						return err
-					}
-
-					if err = b.SetTarget(target); err != nil {
 						return err
 					}
 
