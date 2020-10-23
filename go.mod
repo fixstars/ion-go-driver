@@ -1,4 +1,4 @@
-module gitlab.fixstars.com/ion/ion-go-driver
+module github.com/fixstars/ion-go-driver
 
 go 1.14
 
