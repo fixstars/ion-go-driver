@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
+	ion "github.com/fixstars/ion-go"
 	"github.com/urfave/cli/v2"
-	ion "gitlab.fixstars.com/ion/ion-go"
 )
 
 func main() {
